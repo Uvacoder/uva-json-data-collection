@@ -8,4 +8,4 @@ A JSON list of all the emojis which includes
 - Emoji groups
 - Emoji subgroups
 
-Thanks to (https://emoji-api.com/)[https://emoji-api.com/] for providing the list of emojis
+Thanks to [https://emoji-api.com/](https://emoji-api.com/) for providing the list of emojis

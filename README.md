@@ -15,6 +15,18 @@ Thanks to [https://emoji-api.com/](https://emoji-api.com/) for providing the lis
 
 ------
 
+## gradient-colors.json 👨‍🎤
+
+A JSON list of user generated gradient colors which includes
+
+- An id number for each generated color
+- A GitHub username whom created the gradient color
+- The two colors in hex code used create the gradient color
+
+Thanks to [Savio Martin](https://github.com/saviomartin) who first created this file for his [Gradient King](https://gradient-king.netlify.app)
+
+---
+
 ## quotes.json 👨‍🎤
 
 A JSON list of over 1000 quotes which includes

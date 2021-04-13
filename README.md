@@ -44,3 +44,20 @@ A JSON list of emojis which includes
 - Emoji symbol
 - Emoji keywords
 
+---
+
+## countries folder
+
+29 different JSON files for countries and corresponding data, including
+
+- Countries
+- Religon
+- Flag
+- Capitol
+- Language
+- Population
+- Governement
+- Much more.....
+
+----
+

@@ -59,5 +59,7 @@ A JSON list of emojis which includes
 - Governement
 - Much more.....
 
+Thanks to [samayo](https://github.com/samayo) for much of this collected data.
+
 ----
 

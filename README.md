@@ -63,3 +63,16 @@ Thanks to [samayo](https://github.com/samayo) for much of this collected data.
 
 ----
 
+## fifa-2018 folder
+
+A JSON file of 2018 FIFA collected data including
+
+- Teams
+- Stadiums
+- Groups
+- Winners
+- Losers
+- Tv Networks
+- And more..
+
+Thanks to [Broen Westberg](https://github.com/broeneatsdinner) for accumulating this info.

@@ -26,6 +26,27 @@ Thanks to [muan](https://muan.co) for providing this list
 
 ---
 
+## react-emojis.json 👨‍🎤
+
+A JSON list of emojis which includes
+
+- Emoji title
+- Emoji symbol
+- Emoji keywords
+
+---
+## gradients.json 👨‍🎤
+
+A JSON list of gradient colors for use in tailwindcss, which includes
+
+- Gradient title
+- Gradient theme
+- Gradient code ready to copy in tailwindcss form
+
+Thanks to [Jordi Hales](https://jordihales.co.uk) and [Mark Mead](https://mead.im) for creating these colors
+
+---
+
 ## gradient-colors.json 👨‍🎤
 
 A JSON list of user generated gradient colors which includes
@@ -44,16 +65,6 @@ A JSON list of over 1000 quotes which includes
 
 - Quote text
 - Quote author
-
----
-
-## react-emojis.json 👨‍🎤
-
-A JSON list of emojis which includes
-
-- Emoji title
-- Emoji symbol
-- Emoji keywords
 
 ---
 

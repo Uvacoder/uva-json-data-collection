@@ -15,6 +15,17 @@ Thanks to [https://emoji-api.com/](https://emoji-api.com/) for providing the lis
 
 ------
 
+## emoji-en-US.json
+
+A JSON file containing info for an emoji keyword library which inludes
+
+- Emoji
+- Various keywords describing each emoji  
+
+Thanks to [muan](https://muan.co) for providing this list
+
+---
+
 ## gradient-colors.json 👨‍🎤
 
 A JSON list of user generated gradient colors which includes

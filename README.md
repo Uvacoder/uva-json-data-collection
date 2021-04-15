@@ -34,6 +34,8 @@ A JSON list of emojis which includes
 - Emoji symbol
 - Emoji keywords
 
+Thanks to [Brayden W](https://braydentw.github.io) for putting this list together
+
 ---
 ## gradients.json 👨‍🎤
 

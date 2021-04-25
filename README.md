@@ -61,6 +61,50 @@ Thanks to [Savio Martin](https://github.com/saviomartin) who first created this 
 
 ---
 
+## periodicinfo.json
+
+A great JSON file of periodic elements with each elements relevant data including
+
+Example of Hydrogen:
+
+-   "1": {
+    "name": "Hydrogen",
+    "symbol": "H",
+    "atomicMass": 1.00794,
+    "electronicConfiguration": [
+      {
+        "shell": 1,
+        "subshellType": "s",
+        "electrons": 1
+      }
+    ],
+    "electronegativity": 2.2,
+    "atomicRadius": 37,
+    "vanDelWaalsRadius": 120,
+    "electronAffinity": -73,
+    "oxidationStates": [
+      -1,
+      1
+    ],
+    "phase": "gas",
+    "bondingType": "diatomic",
+    "meltingPoint": 14,
+    "boilingPoint": 20,
+    "density": 0.0000899,
+    "groupBlock": "nonMetal",
+    "yearDiscovered": 1766,
+    "appearance": "colorless gas",
+    "discoveredBy": "Henry Cavendish",
+    "molarHeat": 28.836,
+    "namedBy": "Antoine Lavoisier",
+    "summary": "Hydrogen is a chemical element with chemical symbol H and atomic number 1. With an atomic weight of 1.00794 u, hydrogen is the lightest element on the periodic table. Its monatomic form (H) is the most abundant chemical substance in the Universe, constituting roughly 75% of all baryonic mass.",
+    "y": 1,
+    "x": 1
+    
+Thanks to [Reuben](https://reuben.science) for this collected data   
+
+---
+
 ## quotes.json 👨‍🎤
 
 A JSON list of over 1000 quotes which includes

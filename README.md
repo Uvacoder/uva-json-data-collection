@@ -4,11 +4,17 @@
 
 A JSON file of periodic elements including
 
-- name
-- number
-- symbol
-- row
-- column
+Example:
+
+```
+    {
+        "name": "Hydrogen",
+        "number": 1,
+        "symbol": "H",
+        "row": 1,
+        "col": 1
+    },
+```
 
 Thanks to [Andrew Blakey](https://github.com/ablakey) for this file
 
@@ -18,11 +24,19 @@ Thanks to [Andrew Blakey](https://github.com/ablakey) for this file
 
 A JSON list of all the emojis which includes
 
-- Emoji names
-- Emoji characters
-- Emoji unicode names
-- Emoji groups
-- Emoji subgroups
+Example:
+
+```
+   {
+      "slug":"grinning-face",
+      "character":"\ud83d\ude00",
+      "unicodeName":"grinning face",
+      "codePoint":"1F600",
+      "group":"smileys-emotion",
+      "subGroup":"face-smiling"
+   },
+   {
+```
 
 Thanks to [https://emoji-api.com/](https://emoji-api.com/) for providing the list of emojis
 
@@ -32,8 +46,19 @@ Thanks to [https://emoji-api.com/](https://emoji-api.com/) for providing the lis
 
 A JSON file containing info for an emoji keyword library which inludes
 
-- Emoji
-- Various keywords describing each emoji  
+Example:
+
+```
+ "😀": [
+    "grinning_face",
+    "face",
+    "smile",
+    "happy",
+    "joy",
+    ":D",
+    "grin"
+  ],
+```  
 
 Thanks to [muan](https://muan.co) for providing this list
 
@@ -43,9 +68,16 @@ Thanks to [muan](https://muan.co) for providing this list
 
 A JSON list of emojis which includes
 
-- Emoji title
-- Emoji symbol
-- Emoji keywords
+Example:
+
+```
+  {
+    "title": "100",
+    "symbol": "💯",
+    "keywords":
+      "hundred points symbol symbol wow wow win win perfect perfect parties parties"
+  },
+```
 
 Thanks to [Brayden W](https://braydentw.github.io) for putting this list together
 
@@ -54,9 +86,15 @@ Thanks to [Brayden W](https://braydentw.github.io) for putting this list togethe
 
 A JSON list of gradient colors for use in tailwindcss, which includes
 
-- Gradient title
-- Gradient theme
-- Gradient code ready to copy in tailwindcss form
+Example:
+
+```
+    {
+      "title": "Hyper",
+      "theme": "Warm",
+      "colors": "bg-gradient-to-r from-pink-500 via-red-500 to-yellow-500"
+    },
+```
 
 Thanks to [Jordi Hales](https://jordihales.co.uk) and [Mark Mead](https://mead.im) for creating these colors
 
@@ -66,9 +104,18 @@ Thanks to [Jordi Hales](https://jordihales.co.uk) and [Mark Mead](https://mead.i
 
 A JSON list of user generated gradient colors which includes
 
-- An id number for each generated color
-- A GitHub username whom created the gradient color
-- The two colors in hex code used create the gradient color
+Example:
+
+```
+  {
+    "id": 0,
+    "githubUsername": "saviomartin",
+    "colors": [
+      "#3CA55C",
+      "#B5AC49"
+    ]
+  },
+```
 
 Thanks to [Savio Martin](https://github.com/saviomartin) who first created this file for his [Gradient King](https://gradient-king.netlify.app)
 
@@ -84,7 +131,7 @@ A small JSON file of the periodic table elements grouped into respective metal g
 
 A JSON file of periodic elements with some correlationg data for each element including
 
-Example
+Example:
 
 ```
 {"atomicNumber":1,"symbol":"H","name":"Hydrogen","atomicMass":"1.00794(4)","cpkHexColor":"FFFFFF","electronicConfiguration":"1s1","electronegativity":2.2,"atomicRadius":37,"ionRadius":"","vanDelWaalsRadius":120,"ionizationEnergy":1312,"electronAffinity":-73,"oxidationStates":"-1, 1","standardState":"gas","bondingType":"diatomic","meltingPoint":14,"boilingPoint":20,"density":0.0000899,"groupBlock":"nonmetal","yearDiscovered":1766},
@@ -144,7 +191,7 @@ Thanks to [Reuben](https://reuben.science) for this collected data
 
 A great JSON file of all periodic elements with extensive data for each elemenet including
 
-Example of Hydrogen
+Example of Hydrogen:
 
 ```json
  "1": {
@@ -188,7 +235,7 @@ Thanks to [Pulsar](https://github.com/pulsardev) for this data
 
 A great comprehensive JSON file of periodic table elements including
 
-Example of Hydrogen
+Example of Hydrogen:
 
 ```json
 {
@@ -236,8 +283,14 @@ Thanks to [Bowserinator](https://github.com/Bowserinator) for compiling this dat
 
 A JSON list of over 1000 quotes which includes
 
-- Quote text
-- Quote author
+Example:
+
+```
+	{
+		"quoteText": "Genius is one percent inspiration and ninety-nine percent perspiration.",
+		"quoteAuthor": "Thomas Edison"
+	},
+```
 
 ---
 

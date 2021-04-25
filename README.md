@@ -80,12 +80,27 @@ A small JSON file of the periodic table elements grouped into respective metal g
 
 ---
 
+## periodic-table-data.json
+
+A JSON file of periodic elements with some correlationg data for each element including
+
+Example
+
+```
+{"atomicNumber":1,"symbol":"H","name":"Hydrogen","atomicMass":"1.00794(4)","cpkHexColor":"FFFFFF","electronicConfiguration":"1s1","electronegativity":2.2,"atomicRadius":37,"ionRadius":"","vanDelWaalsRadius":120,"ionizationEnergy":1312,"electronAffinity":-73,"oxidationStates":"-1, 1","standardState":"gas","bondingType":"diatomic","meltingPoint":14,"boilingPoint":20,"density":0.0000899,"groupBlock":"nonmetal","yearDiscovered":1766},
+```
+
+Thanks to [Chris Andrejewski](https://jew.ski) for putting this data together
+
+---
+
 ## periodicinfo.json
 
 A great JSON file of periodic elements with each elements relevant data including
 
 Example of Hydrogen:
 
+```json
   "1": {
     "name": "Hydrogen",
     "symbol": "H",
@@ -119,7 +134,8 @@ Example of Hydrogen:
     "summary": "Hydrogen is a chemical element with chemical symbol H and atomic number 1. With an atomic weight of 1.00794 u, hydrogen is the lightest element on the periodic table. Its monatomic form (H) is the most abundant chemical substance in the Universe, constituting roughly 75% of all baryonic mass.",
     "y": 1,
     "x": 1
-    
+```
+
 Thanks to [Reuben](https://reuben.science) for this collected data   
 
 ---
@@ -130,6 +146,7 @@ A great JSON file of all periodic elements with extensive data for each elemenet
 
 Example of Hydrogen
 
+```json
  "1": {
       "atomicMass": 1.0079,
       "atomicNumber": 1,
@@ -161,6 +178,7 @@ Example of Hydrogen
       "discoveryDate": 1766,
       "context": "Hydrogen gas was first artificially produced in the early 16th century by the reaction of acids on metals. In 1766–81, Henry Cavendish was the first to recognize that hydrogen gas was a discrete substance, and that it produces water when burned, the property for which it was later named: in Greek, hydrogen means \"water-former\"."
     },
+```
 
 Thanks to [Pulsar](https://github.com/pulsardev) for this data
 

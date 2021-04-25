@@ -1,5 +1,18 @@
 # Various json files I have collected 😝
 
+## base_elements.json
+
+A JSON file of periodic elements including
+
+- name
+- number
+- symbol
+- row
+- column
+
+Thanks to [Andrew Blakey](https://github.com/ablakey) for this file
+
+---
 
 ## emojis.json 👨‍🎤
 

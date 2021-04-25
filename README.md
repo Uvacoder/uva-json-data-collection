@@ -67,7 +67,7 @@ A great JSON file of periodic elements with each elements relevant data includin
 
 Example of Hydrogen:
 
--   "1": {
+  "1": {
     "name": "Hydrogen",
     "symbol": "H",
     "atomicMass": 1.00794,

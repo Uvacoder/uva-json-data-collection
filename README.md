@@ -61,6 +61,12 @@ Thanks to [Savio Martin](https://github.com/saviomartin) who first created this 
 
 ---
 
+## groupblocks.json
+
+A small JSON file of the periodic table elements grouped into respective metal groupings
+
+---
+
 ## periodicinfo.json
 
 A great JSON file of periodic elements with each elements relevant data including

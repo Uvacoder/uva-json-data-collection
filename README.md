@@ -124,6 +124,48 @@ Thanks to [Reuben](https://reuben.science) for this collected data
 
 ---
 
+## periodicinfolg.json
+
+A great JSON file of all periodic elements with extensive data for each elemenet including
+
+Example of Hydrogen
+
+ "1": {
+      "atomicMass": 1.0079,
+      "atomicNumber": 1,
+      "ionizationEnergy": 13.5984,
+      "atomicRay": "25",
+      "boilingPoint": {
+        "C": -252.879
+      },
+      "criticalPoint": 32.938,
+      "group": "1",
+      "density": 0.08988,
+      "discoveryAuthor": "Henry Cavendish",
+      "electronConfiguration": ["1s"],
+      "electronegativity": 2.20,
+      "electronsPerShell": [1],
+      "elementGroup": "non-metal",
+      "heatOfFusion": 0.117,
+      "heatOfVaporization": 0.3904,
+      "ionisationEnergy": 13.598443,
+      "meltingPoint": {
+        "C": -259.16
+      },
+      "molarHeatCapacity": 28.836,
+      "name": "Hydrogen",
+      "period": 1,
+      "phase": "gas",
+      "symbol": "H",
+      "triplePoint": 13.8033,
+      "discoveryDate": 1766,
+      "context": "Hydrogen gas was first artificially produced in the early 16th century by the reaction of acids on metals. In 1766–81, Henry Cavendish was the first to recognize that hydrogen gas was a discrete substance, and that it produces water when burned, the property for which it was later named: in Greek, hydrogen means \"water-former\"."
+    },
+
+Thanks to [Pulsar](https://github.com/pulsardev) for this data
+
+---
+
 ## quotes.json 👨‍🎤
 
 A JSON list of over 1000 quotes which includes

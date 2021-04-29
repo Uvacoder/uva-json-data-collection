@@ -279,6 +279,25 @@ Thanks to [Bowserinator](https://github.com/Bowserinator) for compiling this dat
 
 ---
 
+## quotes-stoicism.json 👨‍🎤
+
+A JSON list of over 1000 quotes from philosophers related to stoicism including
+
+Example:
+
+```
+  {
+    "quote": "What decides whether a sum of money is good? The money is not going to tell you; it must be the faculty that makes use of such impressions – reason.",
+    "author": "Epictetus",
+    "source": "Discourses I, 1.5",
+    "tweetable": true
+  },
+```
+
+Thanks to [David Wells](https://davidwells.io) for putting this data together
+
+---
+  
 ## quotes.json 👨‍🎤
 
 A JSON list of over 1000 quotes which includes

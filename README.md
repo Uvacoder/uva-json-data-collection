@@ -23,6 +23,11 @@ https://praveenjuge.com
 Praveen Juge
 praveenjuge
 ---
+## quotes-stoicism
+
+Romain Cascino
+RomainCscn
+---
 
 ## base_elements.json
 

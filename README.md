@@ -14,10 +14,16 @@ mattdesl
 ---
 ## pokemon-data
 
-
 Pulkit Sambhavi Singh
 Purukitto
 ---
+## links-dev-design
+
+https://praveenjuge.com
+Praveen Juge
+praveenjuge
+---
+
 ## base_elements.json
 
 A JSON file of periodic elements including

@@ -1,0 +1,22 @@
+{
+    "name": "open-source-design-500",
+    "version": "0.0.1",
+    "license": "MIT",
+    "main": "app.js",
+    "private": "true",
+    "author": {
+        "name": "Gregory Wolanski",
+        "email": "opensource@gregorywolanski.com",
+        "url": "https://www.gregorywolanski.com"
+    },
+    "dependencies": {
+        "bluebird": "^3.5.0",
+        "build-url": "^1.0.10",
+        "moment": "^2.18.1",
+        "node-fetch": "^1.7.3",
+        "performance-now": "^2.1.0"
+    },
+    "devDependencies": {
+        "prettier": "^1.7.0"
+    }
+}

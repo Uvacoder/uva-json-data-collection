@@ -33,6 +33,15 @@ https://muan.co
 Mu-An Chiou
 muan
 ---
+## imdb-data
+https://typeofnan.dev
+
+
+Nick Scialli
+nas5w
+---
+
+
 ## base_elements.json
 
 A JSON file of periodic elements including

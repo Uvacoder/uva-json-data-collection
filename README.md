@@ -1,5 +1,11 @@
 # Various json files I have collected 😝
 
+## paper-colors.json
+
+https://mattdesl.com/
+Matt DesLauriers
+mattdesl
+
 ## base_elements.json
 
 A JSON file of periodic elements including

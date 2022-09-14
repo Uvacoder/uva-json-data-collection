@@ -36,12 +36,15 @@ muan
 ## imdb-data
 https://typeofnan.dev
 
-
 Nick Scialli
 nas5w
 ---
+## open-source-design
 
-
+https://gregwolanski.com
+Greg Wolanski
+gregwolanski
+----
 ## base_elements.json
 
 A JSON file of periodic elements including

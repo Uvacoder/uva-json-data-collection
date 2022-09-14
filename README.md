@@ -1,5 +1,11 @@
 # Various json files I have collected 😝
 
+## color-names
+
+http://Wʬ.Elastiq.ch
+David Aerne
+meodai
+
 ## paper-colors.json
 
 https://mattdesl.com/

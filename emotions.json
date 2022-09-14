@@ -1,0 +1,147 @@
+[
+  {
+    "name": "Surprise",
+    "description": "Something surprising!",
+    "color": "#F7B801",
+    "children": [
+      {
+        "name": "Surprised"
+      },
+      {
+        "name": "Confused"
+      },
+      {
+        "name": "Astonished"
+      },
+      {
+        "name": "Eager"
+      }
+    ]
+  },
+  {
+    "name": "Joy",
+    "color": "#8332AC",
+    "children": [
+      {
+        "name": "Cheerful"
+      },
+      {
+        "name": "Interested"
+      },
+      {
+        "name": "Proud"
+      },
+      {
+        "name": "Accepted"
+      },
+      {
+        "name": "Powerful"
+      },
+      {
+        "name": "Peaceful"
+      },
+      {
+        "name": "Intimate"
+      },
+      {
+        "name": "Optimistic"
+      }
+    ]
+  },
+  {
+    "name": "Sadness",
+    "color": "#1A659E",
+    "children": [
+      {
+        "name": "Guilty",
+        "description": ""
+      },
+      {
+        "name": "Abandoned",
+        "description": ""
+      },
+      {
+        "name": "Desperate",
+        "description": ""
+      },
+      {
+        "name": "Depress",
+        "description": ""
+      },
+      {
+        "name": "Lonely",
+        "description": ""
+      },
+      {
+        "name": "Bored",
+        "description": ""
+      }
+    ]
+  },
+  {
+    "name": "Disgusted",
+    "color": "#5FAD56",
+    "children": [
+      {
+        "name": "Abstinence"
+      },
+      {
+        "name": "Horrible"
+      },
+      {
+        "name": "Disappointed"
+      },
+      {
+        "name": "Dissatisfied"
+      }
+    ]
+  },
+  {
+    "name": "Anger",
+    "color": "#DD2D4A",
+    "children": [
+      {
+        "name": "Critical"
+      },
+      {
+        "name": "Distant"
+      },
+      {
+        "name": "Frustrated"
+      },
+      {
+        "name": "Aggressive"
+      },
+      {
+        "name": "Hatred"
+      },
+      {
+        "name": "Threatened"
+      },
+      {
+        "name": "Hurt"
+      }
+    ]
+  },
+  {
+    "name": "Fear",
+    "color": "#FF9B42",
+    "children": [
+      {
+        "name": "Humiliated"
+      },
+      {
+        "name": "Rejected"
+      },
+      {
+        "name": "Insecure"
+      },
+      {
+        "name": "Anxious"
+      },
+      {
+        "name": "Scared"
+      }
+    ]
+  }
+]

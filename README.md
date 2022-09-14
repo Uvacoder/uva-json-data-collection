@@ -5,13 +5,19 @@
 http://Wʬ.Elastiq.ch
 David Aerne
 meodai
-
+---
 ## paper-colors.json
 
 https://mattdesl.com/
 Matt DesLauriers
 mattdesl
+---
+## pokemon-data
 
+
+Pulkit Sambhavi Singh
+Purukitto
+---
 ## base_elements.json
 
 A JSON file of periodic elements including

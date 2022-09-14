@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Design & Dev Links</title>
+    <script src="./alpine.min.js" defer></script>
+    <script src="./rss-parser.min.js"></script>
+  </head>
+
+  <body style="max-width: 750px; margin: 0 auto; font-size: 1.5rem; padding: 20px" x-data="setup()" x-init="init">
+    Design & Dev Links ·
+    <span x-text="d"></span>
+
+    <template x-for="source in finalFeed()">
+      <div>
+        <p>
+          <a x-bind:href="source.link" x-text="source.title" target="_blank"></a>
+          <small> · <a href="#" target="_blank">Css Tricks</a></small>
+        </p>
+      </div>
+    </template>
+
+    <script>
+      let rss_parser = new RSSParser();
+      const CORS_PROXY = "https://cool-hat-0ee1.praveenjuge.workers.dev/?";
+      const FEED_SOURCE = "./sources.json";
+
+      function setup() {
+        return {
+          itemsData: [],
+          finalData: [],
+          d: new Date().toDateString(),
+
+          finalFeed() {
+            return this.itemsData;
+          },
+
+          get(source) {
+            rss_parser.parseURL(source, (err, feed) => {
+              if (err) {
+                console.error(err);
+              } else {
+                feed.items.forEach((entry) => {
+                  if (new Date(entry.pubDate).toDateString() === new Date().toDateString()) {
+                    this.itemsData.push({
+                      title: entry.title,
+                      link: entry.link,
+                    });
+                  }
+                });
+              }
+            });
+          },
+
+          init() {
+            fetch(FEED_SOURCE)
+              .then((response) => response.json())
+              .then((json) => {
+                json.forEach((source) => {
+                  this.get(CORS_PROXY + source);
+                });
+              })
+              .catch((error) => {
+                console.error("Error:", error);
+              });
+          },
+        };
+      }
+    </script>
+  </body>
+</html>

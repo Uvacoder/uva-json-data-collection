@@ -1,0 +1,20 @@
+[
+    {
+        "url": "https://github.com/koreader/koreader",
+        "issues": [{ "id": 288124409 }],
+        "name": "koreader/koreader",
+        "stars": 3522
+    },
+    {
+        "url": "https://github.com/ClarityMoe/Lovewing",
+        "issues": [{ "id": 265564662 }],
+        "name": "ClarityMoe/Lovewing",
+        "stars": 8
+    },
+    {
+        "url": "https://github.com/hypothesis/product-backlog",
+        "issues": [{ "id": 215817840 }],
+        "name": "hypothesis/product-backlog",
+        "stars": 6
+    }
+]

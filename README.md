@@ -45,6 +45,13 @@ https://gregwolanski.com
 Greg Wolanski
 gregwolanski
 ----
+## domains-list
+A JSON list of top level domains
+
+https://charanj.it
+Charanjit Chana
+cchana
+---
 ## base_elements.json
 
 A JSON file of periodic elements including
